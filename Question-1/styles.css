@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -11,10 +10,10 @@ body {
 .form-container {
     background-color: lightblue;
     border: 5px solid darkgreen;
-    padding: 20px;
+    padding: 25px;
     width: 100%;
-    max-width: 500px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+   
 }
 
 form {
@@ -23,12 +22,12 @@ form {
 }
 
 form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 label {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     font-weight: bold;
 }
 
@@ -36,10 +35,10 @@ input,
 select,
 textarea {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    border-radius: 5px;
+    font-size: 18px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -55,21 +54,21 @@ button {
 }
 
 button:hover {
-    background-color: green;
+    background-color: blue;
 }
 
 @media (max-width: 600px) {
     .form-container {
-        padding: 10px;
+        padding: 12px;
     }
 
     input,
     select,
     textarea {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     button {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
